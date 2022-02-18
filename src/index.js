@@ -7,6 +7,8 @@ if (process.env.NODE_ENV !== 'production') {
 }
 function component() {
     let element = document.createElement('div');
+
+    
     // Lodash, now imported by this script
     // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     // var btn = document.createElement('button');
